@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js form.js" type="text/javascript" Language="javascript">
+    </script>
+    <style>
+        body{
+            background-image: url("2150757513.jpg");
+            background-position: fixed;
+            background-size: 100.6% 150%;
+        }
+        .main{
+            background-image: url("7CJk.gif");
+            background-position: fixed;
+            background-size: 100% 100%;
+            width: 805px;
+            height: 390px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: rgb(88, 65, 33) solid 5px;
+            margin-top: 100px;
+        }
+        table{
+                backdrop-filter: blur(18px);
+                border-radius: 20px;
+                border: black solid 3px;
+            }
+        [type="text"]{
+                        background-color: transparent;
+                        width: 205px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                    }
+        [name="day"]{
+                        background-color: transparent;
+                        width: 55px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                    }
+        [name="month"]{
+                        background-color: transparent;
+                        width: 90px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                        }
+        [name="year"]{
+                        background-color: transparent;
+                        width: 60px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                    }
+        [name="submit"]{
+                        background-color: transparent;
+                        width: 60px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                    }
+        [name="reset"]{
+                        background-color: transparent;
+                        width: 60px;
+                        height: 20px;
+                        text-align: center;
+                        color: white;
+                        border-radius: 6px;
+                    }
+        option{color: black;}
+    </style>
+</head>
+<body bgcolor="red"><center>
+    <form method="post" name="management" action="www.google.com" onSubmit="return fun();">
+    <div align="center" class="main">
+    <table width="400" height="350" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name Of Student:-</b></font></td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enrollment No.:-<font color="red" face="calibri" size="3"><b>*</b></font></font></td>
+            <td><input type="text" name="enrollment"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone number:-</b></font></td>
+            <td><input type="text" name="phone"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programm name:-<font color="red" face="calibri" size="3"><b>*</b></font></b></font></td>
+            <td><input type="text" name="programm"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Programm Code:-<font color="red" face="calibri" size="3"><b>*</b></font></b></td>
+            <td><input type="text" name="code"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail Id:-</b></font></td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:-<font color="red" face="calibri" size="3"><b>*</b></font></b></font></td>
+            <td><input type="text" name="password"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Age:-</b></font></td>
+            <td><input type="text" name="Age"></td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gender:-</b></font></td>
+            <td><input type="radio" name="gender" value="Male"><font face="calibri" size="3" color="white"><b>Male</b></font>&nbsp;&nbsp;
+                <input type="radio" name="gender" value="Female"><font face="calibri" size="3" color="white"><b>Female</b></font>&nbsp;&nbsp;
+                <input type="radio" name="gender" value="Other"><font face="calibri" size="3" color="white"><b>Other</b></font>
+            </td>
+        </tr>
+        <tr>
+            <td><font face="calibri" size="3" color="white"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of birth:-</b></font></td>
+            <td><select name="day">
+                <option value="">-Day-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                </select>
+                <select name="month">
+                <option value="">-Month-</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+                </select>
+                <select name="year">
+                <option value="">-Year-</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+                <option value="1992">1992</option>
+                <option value="1993">1993</option>
+                <option value="1994">1994</option>
+                <option value="1995">1995</option>
+                <option value="1996">1996</option>
+                <option value="1997">1997</option>
+                <option value="1998">1998</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><input type="submit" name="submit" value="Submit">&nbsp;
+            <input type="reset" name="reset" value="Clear"></td>
+        </tr>
+    </table>
+    </div>
+    </form></center>
+</body>
+</html>
